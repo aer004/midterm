@@ -1,0 +1,11 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #000000;
+  font-family: "OCR";
+  src: url(midterm/OCRAStdRegular.ttf) format("truetype");
+  color: #ffffff;
+}
