@@ -1,11 +1,51 @@
+@font-face {
+  font-family: "OCR";
+  src: url(OCRAStdRegular.ttf);
+}
+
 body, html{
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
 }
 
 body{
   background-color: #000000;
   font-family: "OCR";
-  src: url(midterm/OCRAStdRegular.ttf) format("truetype");
-  color: #ffffff;
+  color: #008F11;
 }
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+figure {
+  background-color: #ffffff;
+  padding: 0.3rem;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.content {
+  padding: 0.5rem;
+  column-width: 25rem;
+  column-count: auto;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+figure:hover {
+  background-color:#003B00;
+}
+
+/* Tutorial for Grid layout:
+https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/
+*/
