@@ -11,7 +11,7 @@ body, html{
 body{
   background-color: #000000;
   font-family: "OCR";
-  color: #008F11;
+  color: #547c5a;
 }
 
 img{
@@ -43,8 +43,39 @@ figure {
 }
 
 figure:hover {
-  background-color:#003B00;
+  background-color:#547c5a;
 }
+
+a:link {
+  color: #8ead8e;
+}
+
+/* visited link */
+a:visited {
+  color: #2b4d34;
+}
+
+/* mouse over link */
+a:hover {
+  color: #6e9576;
+}
+
+.sexual_content{
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.oth_content{
+  padding: 0.5rem;
+  text-align: center;
+}
+.app_content{
+
+}
+.app_para_1{
+
+}
+
 
 /* Tutorial for Grid layout:
 https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/
